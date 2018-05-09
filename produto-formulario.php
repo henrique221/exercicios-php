@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <?php require_once("cabecalho.php"); 
 require_once("banco-categoria.php");
 require_once("logica-usuario.php");

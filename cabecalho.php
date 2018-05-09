@@ -3,7 +3,7 @@ error_reporting(E_ALL ^ E_NOTICE);
   require_once("mostra-alerta.php"); ?>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>Minha Loja</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/loja.css" rel="stylesheet">
@@ -25,9 +25,8 @@ error_reporting(E_ALL ^ E_NOTICE);
 		</div>
 	</div>
 	
-	
 	<div class="container">
 		<div class="principal">
 		    <?php  mostraAlerta("success"); ?>
 		    <?php mostraAlerta("danger"); ?>
-			
+		
